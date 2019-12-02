@@ -1,0 +1,103 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+html{
+	height:100%;
+}
+body{
+	width: 100%;
+	height:100%;
+	background-color: #fff
+	color: #333;
+	font-family: "Segoe UI", Arial, sans-serif; 
+	font-size: 1em;
+	line-height: 135%;
+	float: left;
+}
+h1{
+	line-height: 40px;
+}
+a{
+	color: #28FF2FFF;
+	text-decoration: none;
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	transition: all.6s ease;
+}
+a:hover{
+color: #26FFC3FF;
+}
+a, a:hover{
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	transition: all.6s ease;
+}
+.clear{
+	clear: both;
+}
+/*
+Style for header
+*/ 
+header {
+	width:98%;
+	float: left;
+	padding: 1%;
+	background-color: #2FFFBAFF;
+	border-bottom: 3px solid silver;
+}
+header #logo {
+	width: 40%;
+	float: left;
+}
+header #logo a {
+	color: black;
+	font-size: 2em;
+	font-family: Times New Roman, sans-serif;
+}
+header #HeadMenu {
+	width: 25%;
+	float: left;
+}
+header #HeadMenu a {
+	color: black;
+	font-size: 2em;
+	font-family: Times New Roman, sans-serif;
+	}
+header #HeadMenu div {
+float: left;
+padding: 5px;
+}
+header #RegAuth{
+	width: 30%;
+	float: left;
+	text-align: right;
+}
+header #RegAuth a {
+	color: black;
+	font-size: 2em;
+	font-family: Times New Roman, sans-serif;
+	}
+/* Footer style */
+footer {
+width:98%;
+float: left;
+background-color: #151616FF;
+border-top: 2px solid silver;
+margin-top: 10px;
+}
+footer #social{
+	float: left;
+	width: 50%;
+}
+footer #rights{
+	float: right;
+	width: 50%;
+	font-size: 1.1em;
+}
